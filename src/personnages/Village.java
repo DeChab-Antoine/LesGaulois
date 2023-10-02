@@ -44,12 +44,13 @@ public class Village {
 		village.setChef(abra);
 		Gaulois asterix = new Gaulois("Astérix", 8);
 		village.ajouterHabitant(asterix);
-		Gaulois gaulois = village.trouverHabitant(1);
-		System.out.println(gaulois);
-//		
-//		Gaulois obelix = new Gaulois("Obélix", 8);
-//		village.ajouterHabitant(obelix);
-//		village.afficherVillageois();
+//		Gaulois gaulois = village.trouverHabitant(1);
+//		System.out.println(gaulois);
+			// Null : "aucun villageois en 1, asterix est en 0.
+		
+		Gaulois obelix = new Gaulois("Obélix", 8);
+		village.ajouterHabitant(obelix);
+		village.afficherVillageois();
     }
 
 }
